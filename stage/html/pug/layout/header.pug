@@ -1,2 +1,27 @@
 .header
     i.fa.fa-exchange.fa-lg.toggle-sidebar
+    .dropdown.notification-container
+        i.fa.fa-bell.fa-lg.toggle-notifications#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+        .dropdown-menu(aria-labelledby='notifications')
+            .noti-head
+                | Notifications
+                span 50
+            .noti-content
+                ul.list-unstyled
+                    li
+                        i.fa-solid.fa-envelope.fa-lg
+                        | You Got Email From Udacity
+                    li
+                        i.fa-solid.fa-money-bill.fa-lg
+                        | You Got Money From Udacity
+                    li
+                        i.fa-solid.fa-thumbs-up.fa-lg
+                        | You Got Like From Udacity
+                    li
+                        i.fa-solid.fa-envelope.fa-lg
+                        | You Got Email From Udacity
+                    li
+                        i.fa-solid.fa-money-bill.fa-lg
+                        | You Got Money From Udacity
+            .noti-foot.text-center: a(href="#") View All Notifications
+            

@@ -24,3 +24,9 @@ document.querySelectorAll(".toggle-submenu").forEach((i) => {
     }
   });
 });
+
+document.querySelector(".dropdown").onclick = function (e) {
+
+  this.lastElementChild.classList.toggle("toggler");
+  
+};
