@@ -1,7 +1,7 @@
 .header
     i.fa.fa-exchange.fa-lg.toggle-sidebar
     .dropdown.notification-container
-        i.fa.fa-bell.fa-lg.toggle-notifications#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+        i.fa.fa-bell.fa-lg.header-icon.toggle-notifications#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
         .dropdown-menu(aria-labelledby='notifications')
             .noti-head
                 | Notifications
@@ -24,4 +24,32 @@
                         i.fa-solid.fa-money-bill.fa-lg
                         | You Got Money From Udacity
             .noti-foot.text-center: a(href="#") View All Notifications
+    i.fa-solid.fa-up-right-and-down-left-from-center.toggle-fullscreen.header-icon
+    .dropdown.usermenu-container
+        .usermenu#usermenu
+            img(src="images/img.jpg", alt="")
+            span.user Hassan AbuAli
+            i.fa.fa-angle-down.fa-lg#dropdown
+        .dropdown-menu
+            h3 Hassan AbuAli 
+            h6 Premium Member 
+            hr
+            p Added Comment To Post "How To Make Bla Bla Bla"
+            p Created Post On Company Science 
+            p Created Chat On Charts Page
+            p Added Comment To Post "How To Make Bla Bla Bla"
+            hr
+            .options
+                .option
+                    i.fa.fa-gear.fa-lg.fa-fw.blue
+                    span Settings 
+                .option 
+                    i.fa.fa-user.fa-lg.fa-fw.green
+                    span My Profile 
+                .option 
+                    i.fa.fa-power-off.fa-lg.fa-fw.red
+                    span Logout
+
+
+
             

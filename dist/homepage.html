@@ -13,6 +13,26 @@
   </head>
   <body> 
     <div class="page homepage">
+      <div class="settings-box hide-settings">
+        <div class="toggle-settings"><i class="fa fa-gear fa-lg"></i></div>
+        <div class="settings-content text-center">
+          <div class="option-box color-options">
+            <h4 class="option-title">Color Options</h4>
+            <ul class="list-unstyled">
+              <li data-theme="green-theme"></li>
+              <li data-theme="blue-theme"></li>
+              <li data-theme="red-theme"></li>
+              <li data-theme="orange-theme"></li>
+            </ul>
+          </div>
+          <div class="option-box">
+            <h4 class="option-title">Font Options </h4>
+          </div>
+          <div class="option-box"> 
+            <h4 class="option-title">Sidebar Option</h4>
+          </div>
+        </div>
+      </div>
       <div class="sidebar">
         <div class="logo-area text-center">AbuAli</div>
         <ul class="links-area list-unstyled"> 
@@ -35,7 +55,7 @@
       </div>
       <div class="content-area">
         <div class="header"><i class="fa fa-exchange fa-lg toggle-sidebar"></i>
-          <div class="dropdown notification-container"><i class="fa fa-bell fa-lg toggle-notifications" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+          <div class="dropdown notification-container"><i class="fa fa-bell fa-lg header-icon toggle-notifications" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
             <div class="dropdown-menu" aria-labelledby="notifications">
               <div class="noti-head">Notifications<span>50</span></div>
               <div class="noti-content">
@@ -48,6 +68,24 @@
                 </ul>
               </div>
               <div class="noti-foot text-center"><a href="#">View All Notifications</a></div>
+            </div>
+          </div><i class="fa-solid fa-up-right-and-down-left-from-center toggle-fullscreen header-icon"></i>
+          <div class="dropdown usermenu-container">
+            <div class="usermenu" id="usermenu"><img src="images/img.jpg" alt=""><span class="user">Hassan AbuAli</span><i class="fa fa-angle-down fa-lg" id="dropdown"></i></div>
+            <div class="dropdown-menu">
+              <h3>Hassan AbuAli </h3>
+              <h6>Premium Member </h6>
+              <hr>
+              <p>Added Comment To Post "How To Make Bla Bla Bla"</p>
+              <p>Created Post On Company Science </p>
+              <p>Created Chat On Charts Page</p>
+              <p>Added Comment To Post "How To Make Bla Bla Bla"</p>
+              <hr>
+              <div class="options">
+                <div class="option"><i class="fa fa-gear fa-lg fa-fw blue"></i><span>Settings </span></div>
+                <div class="option"> <i class="fa fa-user fa-lg fa-fw green"></i><span>My Profile </span></div>
+                <div class="option"> <i class="fa fa-power-off fa-lg fa-fw red"></i><span>Logout</span></div>
+              </div>
             </div>
           </div>
         </div>
